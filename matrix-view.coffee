@@ -19,10 +19,10 @@ $ ->
           ci = $(this).attr("ci")
           if $(this).hasClass("row-header")
             $("#matrix").find("[ri=" +  ri + "]").each ->
-              $(this).css("background-color", "red")
+              $(this).css("background-color", "#eaa")
           else if $(this).hasClass("col-header")
             $("#matrix").find("[ci=" +  ci + "]").each ->
-              $(this).css("background-color", "red")
+              $(this).css("background-color", "#eaa")
           else if $(this).hasClass("value")
             $("#matrix").find("[ci=" +  ci + "], [ri=" +  ri + "]").each ->
               $(this).css("background-color", "#eaa")
