@@ -1,0 +1,120 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    link rel="stylesheet" type="text/css" href="matrix-view.css"
+    title Sample Matrix
+  body
+    .container
+      h1 Sample Matrix
+      table#matrix.table.table-bordered
+        tr
+          th rowspan=3 colspan=3
+          th.col-header rowspan=3
+          th.col-header colspan=3 col-header-1
+          th.col-header colspan=5 col-header-2
+        tr
+          th.col-header rowspan=2
+          th.col-header rowspan=2 col-header-1-1
+          th.col-header rowspan=2 col-header-1-2
+          th.col-header rowspan=2
+          th.col-header rowspan=2 col-header-2-1
+          th.col-header rowspan=1 colspan=3 col-header-2-2
+        tr
+          th.col-header
+          th.col-header col-header-2-2-1
+          th.col-header col-header-2-2-2
+        tr
+          th.row-header colspan=3
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header rowspan=3 row-header-1
+          th.row-header colspan=2
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header colspan=2 row-header-1-1
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header colspan=2 row-header-1-2
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header rowspan=4 row-header-2
+          th.row-header colspan=2
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header rowspan=3 row-header-2-1
+          th.row-header
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header row-header-2-1-1
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+        tr
+          th.row-header row-header-2-1-2
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+          td.value
+  script src="https://code.jquery.com/jquery-2.1.4.min.js"
+  script src="matrix-view.js"
